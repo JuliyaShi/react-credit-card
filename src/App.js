@@ -35,7 +35,7 @@ function App() {
          name = 'name' 
          value = {name}
          placeholder = 'Name'
-         onChange = {e => setNumber(e.target.value)}
+         onChange = {e => setName(e.target.value)}
          onFocus = { e => setFocus(e.target.name)}
          />
       
